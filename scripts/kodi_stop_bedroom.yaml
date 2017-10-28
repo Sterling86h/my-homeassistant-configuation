@@ -1,0 +1,9 @@
+alias: Kodi Stop Bedroom
+sequence:
+  - service: shell_command.kodi_player_stop_video_bedroom
+  - delay:
+      seconds: 2
+  - service: shell_command.kodi_player_stop_audio_bedroom
+  - delay:
+      seconds: 2
+  - service: shell_command.kodi_application_home_bedroom

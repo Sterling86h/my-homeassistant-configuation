@@ -1,0 +1,3 @@
+alias: Kodi Exit Livingroom
+sequence:
+  - service: shell_command.exit_kodi_livingroom

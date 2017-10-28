@@ -1,0 +1,9 @@
+alias: Kodi Autostart Livingroom
+sequence:
+  - service: shell_command.kodi_addon_superfavourites_livingroom
+  - delay:
+      seconds: 2
+  - service: shell_command.kodi_navigation_down_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_select_livingroom

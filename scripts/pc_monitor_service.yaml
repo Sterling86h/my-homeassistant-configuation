@@ -1,0 +1,3 @@
+alias: TV Monitor Service
+sequence:
+  - service: shell_command.pc_monitor_service

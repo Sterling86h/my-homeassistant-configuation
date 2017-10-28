@@ -1,0 +1,101 @@
+lg_source:
+  name: TV Source
+  options:
+    - Offline
+    - Kodi
+    - Google Cast
+    - HDMI3
+    - Netflix
+    - Amazon Prime Video
+    - Hulu Plus
+    - SiriusXM Internet Radio
+    - YouTube
+  icon: mdi:television
+
+kodi_favorites_bedroom:
+  name: Kodi Favorites
+  options:
+    - Select Favorite
+    - Channel 01 ABC
+    - Channel 02 CBS
+    - Channel 03 FOX
+    - Channel 04 NBC
+    - Channel 05 MSNBC
+    - Channel 06 CNN
+    - Channel 07 Music Choice R&B Soul
+    - Channel 08 Music Choice Hip Hop R&B
+    - Channel 09 HBO
+    - Channel 10 Cinemax
+    - Program 01 PsudoLiveTV
+    - Program 02 Super Favourites
+    - Program 03 Google Music
+  initial: Select Favorite
+  icon: mdi:television
+
+kodi_favorites_livingroom:
+  name: Kodi Favorites
+  options:
+    - Select Favorite
+    - Channel 01 ABC
+    - Channel 02 CBS
+    - Channel 03 FOX
+    - Channel 04 NBC
+    - Channel 05 MSNBC
+    - Channel 06 CNN
+    - Channel 07 Music Choice R&B Soul
+    - Channel 08 Music Choice Hip Hop R&B
+    - Channel 09 HBO
+    - Channel 10 Cinemax
+    - Program 01 PsudoLiveTV
+    - Program 02 Super Favourites
+    - Program 03 Google Music
+  initial: Select Favorite
+  icon: mdi:television
+
+kodi_volume_bedroom:
+  name: Kodi Volume
+  options:
+    - Mute
+    - 10
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    - 70
+    - 80
+    - 90
+    - 100
+  icon: mdi:volume
+
+kodi_volume_livingroom:
+  name: Kodi Volume
+  options:
+    - Mute
+    - 10
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    - 70
+    - 80
+    - 90
+    - 100
+  icon: mdi:volume
+
+pc_volume_bedroom:
+  name: PC Volume
+  options:
+    - Mute
+    - 10
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    - 70
+    - 80
+    - 90
+    - 100
+  icon: mdi:volume

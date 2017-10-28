@@ -1,0 +1,133 @@
+media_player.sonos_livingroom:
+  friendly_name: Sonos Livingroom
+  icon: mdi:speaker
+  hidden: false
+media_player.sonos_bedroom:
+  friendly_name: Sonos Bedroom
+  icon: mdi:speaker
+  hidden: false
+script.tv_volume_up:
+  friendly_name: TV Volume Up
+  hidden: true
+script.tv_volume_down:
+  friendly_name: TV Volume Down
+  hidden: true
+script.tv_volume_mute:
+  friendly_name: TV Volume Mute
+  hidden: true
+switch.tv_power:
+  friendly_name: TV Power
+  icon: mdi:power
+  hidden: false
+switch.tvwolpower:
+  friendly_name: TV WOL Power Hidden
+  icon: mdi:power
+  hidden: true
+script.tv_power_on:
+  friendly_name: TV Power Script Hidden
+  icon: mdi:power
+  hidden: true
+switch.kitchen_lights:
+  friendly_name: Kitchen Lights
+  icon: mdi:lightbulb
+  hidden: false
+switch.livingroom_lights:
+  friendly_name: Livingroom Lights
+  icon: mdi:lightbulb
+  hidden: false
+media_player.living_room_tv:
+  friendly_name: Living Room TV
+  hidden: false
+sensor.current_source:
+  hidden: true
+input_slider.living_room:
+  friendly_name: Sonos LR
+  hidden: false
+input_slider.bedroom:
+  friendly_name: Sonos BR
+  hidden: false
+switch.sonos_join:
+  friendly_name: Group Rooms
+  icon: mdi:speaker-wireless
+  assumed_state: false
+  hidden: true
+script.sonos_join:
+  friendly_name: Group Rooms
+  icon: mdi:speaker-wireless
+  hidden: false
+script.sonos_unjoin:
+  friendly_name: Ungroup Rooms
+  icon: mdi:speaker-wireless
+  hidden: false
+script.sonos_play_heartsoul:
+  friendly_name: SiriusXM Heart & Soul
+  icon: mdi:star
+  hidden: false
+switch.bedroom_pc:
+  friendly_name: Bedroom PC Power
+  icon: mdi:power
+  hidden: false
+script.pc_volume_up:
+  friendly_name: Volume Up
+  icon: mdi:volume-high
+  hidden: false
+script.pc_volume_down:
+  friendly_name: Volume Down
+  icon: mdi:volume-medium
+  hidden: false
+script.pc_volume_mute:
+  friendly_name: Volume Mute
+  icon: mdi:volume-off
+  hidden: false
+script.pc_monitor_on:
+  friendly_name: Display On
+  icon: mdi:monitor
+  hidden: false
+script.pc_monitor_off:
+  friendly_name: Display Off
+  icon: mdi:monitor
+  hidden: false
+script.pc_monitor_service:
+  friendly_name: Display Service
+  icon: mdi:monitor
+  hidden: false
+script.pc_restart:
+  friendly_name: Restart PC
+  icon: mdi:power
+  hidden: false
+script.pc_hibernate:
+  friendly_name: Hibernate PC
+  icon: mdi:power
+  hidden: false
+script.pc_shutdown:
+  friendly_name: Shutdown PC
+  icon: mdi:power
+  hidden: false
+script.pc_wake:
+  friendly_name: Wake PC
+  icon: mdi:power
+  hidden: false
+script.pc_sleep:
+  friendly_name: Sleep PC
+  icon: mdi:sleep
+  hidden: false
+switch.display_power:
+  friendly_name: Display Power
+  icon: mdi:monitor
+  hidden: false
+sensor.internet_time:
+  hidden: true
+sensor.date__time:
+  hidden: true
+sensor.time__date:
+  hidden: true
+sensor.time__utc:
+  hidden: true
+sensor.time_utc:
+  hidden: true
+script.radio538:
+  friendly_name: Start Playing
+  icon: mdi:play
+switch.monitor_power:
+  friendly_name: Display Power
+  icon: mdi:monitor

@@ -1,0 +1,4 @@
+restart_home_assistant:
+  name: Restart Home Assistant
+  initial: off
+  icon: mdi:power

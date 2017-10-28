@@ -1,0 +1,167 @@
+homeassistant:
+  name: Home
+  latitude: 33.7644
+  longitude: -84.3837
+  elevation: 285
+  unit_system: imperial
+  time_zone: America/New_York
+  customize: !include customize.yaml
+
+http:
+    api_password: Mailnone79
+    base_url: https://myhomeassistant.duckdns.org:8123
+    ssl_certificate: /ssl/fullchain.pem
+    ssl_key: /ssl/privkey.pem
+
+# Enables #
+frontend:
+logbook:
+discovery:
+logger:
+history:
+config:
+updater:
+zeroconf:
+map:
+sun:
+ffmpeg:
+wemo:
+
+tts:
+  - platform: google
+
+hdmi_cec:
+  platform: media_player
+
+###  Include ###
+switch: !include switches.yaml
+script: !include_dir_named scripts
+device_tracker: !include device_trackers.yaml
+#automation: !include automation.yaml
+#group: !include groups.yaml
+#input_select: !include input_select.yaml
+#input_slider: !include input_slider.yaml
+#shell_command: !include shell_commands.yaml
+#rest_command: !include rest_commands.yaml
+#notify: !include notify.yaml
+#cameras: !include cameras.yaml
+
+android_ip_webcam:
+  - host: 192.168.1.15
+    port: 7000
+    name: 'Edge Camera'
+
+  - host: 192.168.1.22
+    port: 7001
+    name: 'ZTE Camera'
+
+alarm_control_panel:
+  - platform: manual_mqtt
+    state_topic: home/alarm
+    command_topic: home/alarm/set
+
+mqtt:
+  broker: m11.cloudmqtt.com
+  port: 11372
+  username: homeassistant
+  password: Mailnone79
+
+ifttt:
+  key: kOjr3zGRdLb8phrtBuRdU
+
+wake_on_lan:
+
+###  Media Players ###
+media_player:
+  - platform: webostv
+    host: 192.168.1.10
+    mac: D4:63:FE:25:06:BF
+    name: Living Room TV
+    filename: webostvinfo.conf
+    customize:
+      sources:
+        - Emby
+        - Kodi
+        - Google Cast
+        - HDMI3
+        - Netflix
+        - Amazon Prime Video
+        - Hulu Plus
+        - SiriusXM Internet Radio
+        - YouTube
+
+  - platform: sonos
+    hosts:
+      - 192.168.1.6 #Livingroom
+      - 192.168.1.5 #Bedroom      
+
+  - platform: samsungtv
+    host: 192.168.1.23
+
+  - platform: emby
+    host: 192.168.1.4
+    api_key: "393eccd9b2ed44f582aa45e8af01e678"
+    auto_hide: true
+
+  - platform: kodi
+    host: 192.168.1.4
+    port: 8090
+    name: Kodi Bedroom
+    turn_on_action:
+      service: media_player.kodi_call_method
+      data:
+        entity_id: media_player.kodi
+        method: Addons.ExecuteAddon
+        addonid: script.json-cec
+        params:
+          command: activate
+    turn_off_action:
+    - service: media_player.media_stop
+      data:
+        entity_id: media_player.kodi
+    - service: media_player.kodi_call_method
+      data:
+        entity_id: media_player.kodi
+        method: Addons.ExecuteAddon
+        addonid: script.json-cec
+        params:
+          command: standby
+
+  - platform: kodi
+    host: 192.168.1.18
+    port: 8091
+    name: Kodi Livingroom
+    turn_on_action:
+      service: media_player.kodi_call_method
+      data:
+        entity_id: media_player.kodi
+        method: Addons.ExecuteAddon
+        addonid: script.json-cec
+        params:
+          command: activate
+    turn_off_action:
+    - service: media_player.media_stop
+      data:
+        entity_id: media_player.kodi
+    - service: media_player.kodi_call_method
+      data:
+        entity_id: media_player.kodi
+        method: Addons.ExecuteAddon
+        addonid: script.json-cec
+        params:
+          command: standby
+
+# Weather prediction
+sensor:
+  - platform: api_streams
+
+  - platform: yr
+
+  - platform: time_date
+    display_options:
+      - 'time'
+      - 'date'
+      - 'date_time'
+      - 'time_date'
+      - 'time_utc'
+      - 'beat'    

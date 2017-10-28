@@ -1,0 +1,3 @@
+alias: Kodi Fullscreen Bedroom
+sequence:
+  - service: shell_command.kodi_fullscreen_bedroom

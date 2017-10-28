@@ -1,0 +1,3 @@
+alias: PC Volume Mute
+sequence:
+  - service: shell_command.pc_volume_mute

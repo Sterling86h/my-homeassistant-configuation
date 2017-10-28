@@ -1,0 +1,27 @@
+alias: Kodi Channel Pear Livingroom
+sequence:
+  - service: shell_command.kodi_player_stop_video_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_player_stop_audio_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_addon_pearchannel_livingroom
+  - delay:
+      seconds: 4
+  - service: shell_command.kodi_navigation_down_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_select_livingroom

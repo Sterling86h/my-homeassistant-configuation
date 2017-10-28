@@ -1,0 +1,98 @@
+Date:
+  name: Date & Time
+  view: no
+  icon: mdi:weather-partlycloudy
+  entities:
+   - sensor.date
+   - sensor.time
+
+Automation:
+  name: Control Automations
+  view: no
+  icon: mdi:weather-partlycloudy
+  entities:
+   - script.home_mode
+   - script.away_mode
+
+Weather:
+  name: Forecast
+  view: no
+  icon: mdi:weather-partlycloudy
+  entities:
+
+Lights:
+  name: All Lights
+  view: no
+  icon: mdi:flash
+  entities:
+    - switch.livingroom_lights    
+    - switch.kitchen_lights
+
+Security:
+  name: Security
+  view: no
+  icon: mdi:lock-outline
+  entities:
+
+Living Room:
+  name: Livingroom
+  view: no
+  icon: mdi:television
+  entities:
+    - switch.livingroom_lights
+    - switch.livingroom_pc
+    - switch.tv_power
+    - input_select.lg_source
+    - input_slider.lg_volume_slider
+    - switch.kodi_livingroom
+    - script.kodi_fullscreen_livingroom
+    - input_select.kodi_favorites_livingroom
+    - input_slider.living_room
+
+Bedroom:
+  name: Bedroom
+  view: no
+  icon: mdi:hotel
+  entities:
+    - switch.bedroom_pc
+    - script.pc_monitor_on
+    - script.pc_monitor_off
+    - switch.kodi_bedroom
+    - script.kodi_fullscreen_bedroom
+    - input_select.kodi_favorites_bedroom
+    - script.pc_sleep
+    - script.pc_restart
+    - script.pc_shutdown
+    - script.pc_volume_up
+    - script.pc_volume_down
+    - script.pc_volume_mute
+    - input_slider.bedroom
+
+Kitchen:
+  name: Kitchen
+  view: no
+  icon: mdi:food-fork-drink
+  entities:
+    - switch.kitchen_lights
+
+Sonos Controls:
+  name: Sonos Controls
+  view: no
+  icon: mdi:food-fork-drink
+  entities:
+    - script.sonos_join
+    - script.sonos_unjoin
+    - script.sonos_play_heartsoul
+    - input_slider.living_room
+    - input_slider.bedroom
+
+Sonos Livingroom:
+  name: Sonos Livingroom
+  view: no
+  entities:
+    - media_player.sonos_livingroom
+    
+Sonos Bedroom:
+  name: Sonos Bedroom
+  entities:
+    - media_player.sonos_bedroom

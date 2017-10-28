@@ -1,0 +1,19 @@
+- platform: wake_on_lan
+  name: TVWOLPOWER
+  mac_address: 'D4:63:FE:25:06:BF'
+  host: 192.168.1.10
+  turn_off:
+    service: media_player.turn_off
+    entity_id: media_player.living_room_tv
+
+- platform: template
+  switches:
+    tv_power:
+      friendly_name: Power
+      value_template: '{{ states.media_player.living_room_tv.state != "off" }}'
+      turn_on:
+        service: script.turn_on
+        entity_id: script.tv_power_on
+      turn_off:
+        service: script.turn_on
+        entity_id: script.tv_power_off

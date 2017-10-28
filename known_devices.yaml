@@ -1,0 +1,176 @@
+samsung_edge:
+  name: Sterling
+  mac: EC:1F:72:26:12:3F
+  picture: /local/sterling.jpg
+  track: false
+  hide_if_away: false
+
+iphone:
+  hide_if_away: false
+  mac: 98:E0:D9:5A:9C:7E
+  name: iPhone
+  picture: /local/iphone.jpg
+  track: true
+  vendor: Apple, Inc.
+
+edge_edge:
+  hide_if_away: false
+  icon:
+  mac: EC:1F:72:26:12:3F
+  name: Edge Owntracks
+  picture: /local/sterling.jpg
+  track: true
+  vendor:
+
+sonoszp:
+  hide_if_away: false
+  icon:
+  mac: 5C:AA:FD:99:0B:98
+  name: SonosZP
+  picture:
+  track: false
+  vendor: Sonos, Inc.
+
+chromecast:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:7C:ED:7C
+  name: Chromecast
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+amazon89a2d7f8e:
+  hide_if_away: false
+  icon:
+  mac: 44:65:0D:EC:45:8A
+  name: amazon-89a2d7f8e
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+hdhr1049c88e:
+  hide_if_away: false
+  icon:
+  mac: 00:18:DD:04:9C:88
+  name: HDHR-1049C88E
+  picture:
+  track: false
+  vendor: Silicondust Engineering Ltd
+
+hassio:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:6C:95:90
+  name: hassio
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+android2e7d94917e9e251b:
+  hide_if_away: false
+  icon:
+  mac: 0C:12:62:77:43:2A
+  name: android-2e7d94917e9e251b
+  picture:
+  track: false
+  vendor: zte corporation
+
+desktop8mae9pp:
+  hide_if_away: false
+  icon:
+  mac: 78:2B:CB:96:28:12
+  name: DESKTOP-8MAE9PP
+  picture:
+  track: false
+  vendor: Dell Inc.
+
+sonoszp_2:
+  hide_if_away: false
+  icon:
+  mac: B8:E9:37:2A:81:BC
+  name: SonosZP
+  picture:
+  track: false
+  vendor: Sonos, Inc.
+
+6038e05e8be9:
+  hide_if_away: false
+  icon:
+  mac: 60:38:E0:5E:8B:E9
+  name: --
+  picture:
+  track: false
+  vendor: Belkin International Inc.
+
+f877b85684cc:
+  hide_if_away: false
+  icon:
+  mac: F8:77:B8:56:84:CC
+  name: --
+  picture:
+  track: false
+  vendor: unknown
+
+6038e05e8579:
+  hide_if_away: false
+  icon:
+  mac: 60:38:E0:5E:85:79
+  name: --
+  picture:
+  track: false
+  vendor: unknown
+
+googlehome:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:C2:71:50
+  name: Google-Home
+  picture:
+  track: false
+  vendor: unknown
+
+chromecastaudio:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:FB:26:70
+  name: Chromecast-Audio
+  picture:
+  track: false
+  vendor: unknown
+
+chromecastaudio_2:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:FB:0A:3C
+  name: Chromecast-Audio
+  picture:
+  track: false
+  vendor: unknown
+
+livingroompc:
+  hide_if_away: false
+  icon:
+  mac: 78:2B:CB:94:BB:A5
+  name: Livingroompc
+  picture:
+  track: false
+  vendor: unknown
+
+lgwebostv:
+  hide_if_away: false
+  icon:
+  mac: D4:63:FE:25:06:BF
+  name: LGwebOSTV
+  picture:
+  track: false
+  vendor: Arcadyan Corporation
+
+desktopapomvvd:
+  hide_if_away: false
+  icon:
+  mac: E4:02:9B:3E:30:46
+  name: DESKTOP-APOMVVD
+  picture:
+  track: false
+  vendor: Intel Corporate

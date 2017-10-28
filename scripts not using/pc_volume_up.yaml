@@ -1,0 +1,3 @@
+alias: PC Volume Up
+sequence:
+  - service: shell_command.pc_volume_up

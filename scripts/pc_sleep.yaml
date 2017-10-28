@@ -1,0 +1,3 @@
+alias: Sleep PC
+sequence:
+  - service: shell_command.sleep_pc

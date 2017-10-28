@@ -1,0 +1,3 @@
+alias: Wake PC
+sequence:
+  - service: shell_command.wake_pc

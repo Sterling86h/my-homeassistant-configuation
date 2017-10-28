@@ -1,0 +1,9 @@
+alias: Kodi PsudoLiveTV Livingroom
+sequence:
+  - service: shell_command.kodi_player_stop_video_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_player_stop_audio_livingroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_addon_psuedolivetv_livingroom

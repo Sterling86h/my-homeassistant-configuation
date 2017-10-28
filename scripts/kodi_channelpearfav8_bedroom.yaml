@@ -1,0 +1,36 @@
+alias: Kodi Channel Pear Bedroom
+sequence:
+  - service: shell_command.kodi_player_stop_video_bedroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_player_stop_audio_bedroom
+  - delay:
+      seconds: 2
+  - service: shell_command.kodi_addon_pearchannel_bedroom
+  - delay:
+      seconds: 4
+  - service: shell_command.kodi_navigation_down_bedroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_bedroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_bedroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_bedroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_bedroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_bedroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_bedroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_down_bedroom
+  - delay:
+      seconds: 1
+  - service: shell_command.kodi_navigation_select_bedroom

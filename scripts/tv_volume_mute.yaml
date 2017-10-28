@@ -1,0 +1,5 @@
+alias: TV Volume Mute
+sequence:
+  - service: media_player.volume_mute
+    data:
+      entity_id: media_player.living_room_tv

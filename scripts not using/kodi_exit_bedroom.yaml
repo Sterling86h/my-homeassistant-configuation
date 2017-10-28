@@ -1,0 +1,3 @@
+alias: Kodi Exit Bedroom
+sequence:
+  - service: shell_command.exit_kodi_bedroom
