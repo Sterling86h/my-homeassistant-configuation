@@ -174,3 +174,12 @@ desktopapomvvd:
   picture:
   track: false
   vendor: Intel Corporate
+
+desktop8mae9pp_2:
+  hide_if_away: false
+  icon:
+  mac: 98:DE:D0:14:4E:43
+  name: DESKTOP-8MAE9PP
+  picture:
+  track: true
+  vendor: unknown

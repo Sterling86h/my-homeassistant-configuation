@@ -1,0 +1,6 @@
+alias: Lights All Off
+sequence:
+  - service: switch.turn_off
+    entity_id: switch.livingroom_lights
+  - service: switch.turn_off
+    entity_id: switch.kitchen_lights

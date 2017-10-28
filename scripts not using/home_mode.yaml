@@ -1,0 +1,11 @@
+alias: Home Mode
+sequence:
+  - service: switch.turn_on
+    entity_id: switch.livingroom_lights
+  - service: switch.turn_off
+    entity_id: switch.kitchen_lights
+  - service: script.tv_power_on
+  - service: shell_command.pc_monitor_on
+  - delay:
+      seconds: 4
+  - service: shell_command.run_kodi_bedroom

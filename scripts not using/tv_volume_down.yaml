@@ -1,0 +1,14 @@
+alias: TV Volume Down
+sequence:
+  - service: media_player.volume_down
+    entity_id: media_player.living_room_tv
+  - service: media_player.volume_down
+    entity_id: media_player.living_room_tv
+  - service: media_player.volume_down
+    entity_id: media_player.living_room_tv
+  - service: media_player.volume_down
+    entity_id: media_player.living_room_tv
+  - service: media_player.volume_down
+    entity_id: media_player.living_room_tv
+  - service: media_player.volume_down
+    entity_id: media_player.living_room_tv

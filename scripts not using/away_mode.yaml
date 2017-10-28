@@ -1,0 +1,15 @@
+alias: Away Mode
+sequence:
+  - service: switch.turn_off
+    entity_id: switch.livingroom_lights
+  - service: switch.turn_off
+    entity_id: switch.kitchen_lights
+  - service: media_player.turn_off
+    entity_id: media_player.living_room_tv
+  - service: shell_command.exit_kodi_livingroom
+  - delay:
+      seconds: 2
+  - service: shell_command.pc_monitor_off
+  - delay:
+      seconds: 2
+  - service: shell_command.exit_kodi_bedroom
