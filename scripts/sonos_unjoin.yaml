@@ -1,5 +1,0 @@
-alias: Ungroup Rooms
-sequence:
-  - service: media_player.sonos_unjoin
-    entity_id:
-      - media_player.sonos_bedroom

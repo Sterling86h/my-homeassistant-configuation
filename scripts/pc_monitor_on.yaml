@@ -1,9 +1,0 @@
-alias: PC Monitor On
-sequence:
-  - service: shell_command.pc_monitor_service
-  - delay:
-      seconds: 2
-  - service: shell_command.pc_monitor_on
-  - delay:
-      seconds: 2
-  - service: shell_command.run_kodi_bedroom

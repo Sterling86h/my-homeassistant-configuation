@@ -1,9 +1,0 @@
-alias: Kodi Exit Livingroom
-sequence:
-  - service: shell_command.kodi_player_stop_video_livingroom
-  - delay:
-      seconds: 2
-  - service: shell_command.kodi_player_stop_audio_livingroom
-  - delay:
-      seconds: 2
-  - service: shell_command.kodi_application_home_livingroom

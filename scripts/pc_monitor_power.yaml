@@ -1,3 +1,0 @@
-alias: PC Monitor Power
-sequence:
-  - service: shell_command.pc_monitor_power

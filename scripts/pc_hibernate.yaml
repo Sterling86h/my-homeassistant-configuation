@@ -1,3 +1,0 @@
-alias: Hibernate PC
-sequence:
-  - service: shell_command.hibernate_pc

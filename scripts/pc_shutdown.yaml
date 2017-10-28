@@ -1,3 +1,0 @@
-alias: Shutdown PC
-sequence:
-  - service: shell_command.shutdown_pc

@@ -1,8 +1,0 @@
-alias: Group Rooms
-sequence:
-  - service: media_player.sonos_join
-    data:
-      master: media_player.sonos_livingroom
-    entity_id:
-      - media_player.sonos_livingroom
-      - media_player.sonos_bedroom

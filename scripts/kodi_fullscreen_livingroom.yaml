@@ -1,3 +1,0 @@
-alias: Kodi Fullscreen Livingroom
-sequence:
-  - service: shell_command.kodi_fullscreen_livingroom

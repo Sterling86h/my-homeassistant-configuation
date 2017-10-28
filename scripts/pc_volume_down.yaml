@@ -1,3 +1,0 @@
-alias: PC Volume Down
-sequence:
-  - service: shell_command.pc_volume_down
